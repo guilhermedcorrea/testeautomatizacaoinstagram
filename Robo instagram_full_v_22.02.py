@@ -3,16 +3,10 @@ import requests
 import csv
 from datetime import datetime
 import schedule
-import threading
 import re
 import json
 import time
 from urllib.parse import urlsplit, urljoin
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from email.mime.base import MIMEBase
-from email import encoders
 import os.path
 import ftplib
 from selenium.webdriver.support.ui import WebDriverWait
@@ -20,11 +14,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium import webdriver
-import pandas as pd
-from random import randint
 from selenium.webdriver.support.select import Select
-from tkinter import *
-
 
 
 #https://qastack.com.br/unix/107939/how-to-restart-the-python-script-automatically-if-it-is-killed-or-dies
